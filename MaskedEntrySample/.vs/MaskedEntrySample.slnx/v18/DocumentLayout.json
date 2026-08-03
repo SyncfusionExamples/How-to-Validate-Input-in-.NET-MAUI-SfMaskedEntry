@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KBs\\MaskedEntrySample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|d:\\kbs\\maskedentrysample\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|d:\\kbs\\maskedentrysample\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|d:\\kbs\\maskedentrysample\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|d:\\kbs\\maskedentrysample\\maskedentrysample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{820FC41F-626A-445D-05BF-C9A71F0B36E4}|MaskedEntrySample.csproj|solutionrelative:maskedentrysample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\KBs\\MaskedEntrySample\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\KBs\\MaskedEntrySample\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:11:27.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MaskedEntrySample.csproj",
+              "DocumentMoniker": "D:\\KBs\\MaskedEntrySample\\MaskedEntrySample.csproj",
+              "RelativeDocumentMoniker": "MaskedEntrySample.csproj",
+              "ToolTip": "D:\\KBs\\MaskedEntrySample\\MaskedEntrySample.csproj",
+              "RelativeToolTip": "MaskedEntrySample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-24T10:08:50.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\KBs\\MaskedEntrySample\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\KBs\\MaskedEntrySample\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-24T10:07:36.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\KBs\\MaskedEntrySample\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\KBs\\MaskedEntrySample\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-24T10:02:52.712Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
