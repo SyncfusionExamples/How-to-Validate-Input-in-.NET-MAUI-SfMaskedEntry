@@ -11,16 +11,19 @@ namespace MaskedEntrySample
             InitializeComponent();
         }
 
-        private  void OnValidateClicked(object sender, EventArgs e)
+    private void maskedEntry_ValueChanged(object sender, MaskedEntryValueChangedEventArgs e)
+    {
+        SfMaskedEntry maskedEntry = sender as SfMaskedEntry;
+        if (maskedEntry.HasError)
         {
-            if (phoneNumberEntry.HasError)
-            {
-                DisplayAlertAsync("Alert ", "Enter a Valid credentials", "OK");
-                return;
-            }
-            DisplayAlertAsync("Alert ", "Submitted Successfully", "OK");
-            
+            DisplayAlertAsync("Validation", "Enter a valid Number.", "OK");
         }
+
+        if (e.IsMaskCompleted)
+        {
+            DisplayAlertAsync("Validation", "Valid phone number.", "OK");
+        }
+    }
         
     }
     

@@ -8,14 +8,13 @@
         <VerticalStackLayout
            Padding="20" Spacing="30" HorizontalOptions="Start">
  
-            <editors:SfMaskedEntry x:Name="phoneNumberEntry"    
-                                    WidthRequest="250"
-                                   Mask="00-00000 00000"
-                                   ClearButtonVisibility="WhileEditing"
-                                   HorizontalOptions="Start"
-                                   ValidationMode="LostFocus"/>
-
-            <Button Text="Validate" HorizontalOptions="Start" Margin="10" WidthRequest="250" Clicked="OnValidateClicked" />
+       <editors:SfMaskedEntry x:Name="maskedEntry"
+		  WidthRequest="250"
+		  Mask="00-00000 00000"
+		  ClearButtonVisibility="WhileEditing"
+		  HorizontalOptions="Start"
+		  ValueChanged="maskedEntry_ValueChanged"                        
+		  ValidationMode="LostFocus" />
 
          
         </VerticalStackLayout>
