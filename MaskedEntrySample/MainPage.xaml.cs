@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging.Abstractions;
+using Syncfusion.Maui.Inputs;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MaskedEntrySample
@@ -11,19 +12,19 @@ namespace MaskedEntrySample
             InitializeComponent();
         }
 
-    private void maskedEntry_ValueChanged(object sender, MaskedEntryValueChangedEventArgs e)
+    private void OnMaskedEntry_ValueChanged(object sender, MaskedEntryValueChangedEventArgs e)
     {
-        SfMaskedEntry maskedEntry = sender as SfMaskedEntry;
-        if (maskedEntry.HasError)
-        {
-            DisplayAlertAsync("Validation", "Enter a valid Number.", "OK");
-        }
+            SfMaskedEntry maskedEntry = sender as SfMaskedEntry;
+            if (maskedEntry.HasError)
+            {
+                DisplayAlertAsync("Validation", "Enter a valid Number.", "OK");
+            }
 
-        if (e.IsMaskCompleted)
-        {
-            DisplayAlertAsync("Validation", "Valid phone number.", "OK");
+            if (e.IsMaskCompleted)
+            {
+                DisplayAlertAsync("Validation", "Valid phone number.", "OK");
+            }
         }
-    }
         
     }
     
